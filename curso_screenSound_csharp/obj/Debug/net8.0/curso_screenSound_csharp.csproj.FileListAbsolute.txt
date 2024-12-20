@@ -12,3 +12,4 @@
 /home/gabrielrenata/Documentos/Estudos/csharp/curso_1_alura/curso_screenSound_csharp/obj/Debug/net8.0/curso_screenSound_csharp.pdb
 /home/gabrielrenata/Documentos/Estudos/csharp/curso_1_alura/curso_screenSound_csharp/obj/Debug/net8.0/curso_screenSound_csharp.genruntimeconfig.cache
 /home/gabrielrenata/Documentos/Estudos/csharp/curso_1_alura/curso_screenSound_csharp/obj/Debug/net8.0/ref/curso_screenSound_csharp.dll
+/home/gabrielrenata/Documentos/Estudos/csharp/curso_1_alura/curso_screenSound_csharp/obj/Debug/net8.0/curso_screenSound_csharp.sourcelink.json
