@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = curso_screenSound_csharp
-build_property.ProjectDir = /home/gabrielrenata/Documentos/Estudos/csharp/curso_1_alura/curso_screenSound_csharp/
+build_property.ProjectDir = /workspaces/curso_csharp_alura_screensound/curso_screenSound_csharp/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/gabrielrenata/.nuget/packages/": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gabrielrenata/Documentos/Estudos/csharp/curso_1_alura/curso_screenSound_csharp/curso_screenSound_csharp.csproj",
+      "projectUniqueName": "/workspaces/curso_csharp_alura_screensound/curso_screenSound_csharp/curso_screenSound_csharp.csproj",
       "projectName": "curso_screenSound_csharp",
-      "projectPath": "/home/gabrielrenata/Documentos/Estudos/csharp/curso_1_alura/curso_screenSound_csharp/curso_screenSound_csharp.csproj",
-      "packagesPath": "/home/gabrielrenata/.nuget/packages/",
-      "outputPath": "/home/gabrielrenata/Documentos/Estudos/csharp/curso_1_alura/curso_screenSound_csharp/obj/",
+      "projectPath": "/workspaces/curso_csharp_alura_screensound/curso_screenSound_csharp/curso_screenSound_csharp.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/curso_csharp_alura_screensound/curso_screenSound_csharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/gabrielrenata/.nuget/NuGet/NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
