@@ -100,7 +100,7 @@ void AvaliarUmaBanda()
     Console.Clear();
     ExibirOTituloDaopcao("Avaliar Banda");
     Console.Write("Digite o nome da banda que deseja avaliar: ");
-    string nomeDaBanda = Console.ReadLine();
+    string nomeDaBanda = Console.ReadLine()!;
     if (bandasRegistradas.ContainsKey(nomeDaBanda))
     {
 
