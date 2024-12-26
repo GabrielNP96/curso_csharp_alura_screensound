@@ -1,5 +1,7 @@
 ﻿//Screen Sound
 
+List<string> listaDasBandas = new List<string>();
+
 void ExbirLogo()
 {
     string mensagemDeBoasVindas = "𝙎𝙘𝙧𝙚𝙚𝙣 𝙎𝙤𝙪𝙣𝙙";
@@ -48,6 +50,7 @@ void RegistarBanda()
     Console.WriteLine("Registro de Bandas");
     Console.Write("Digite o nome da banda: ");
     string nomeDaBanda = Console.ReadLine()!;
+    listaDasBandas.Add(nomeDaBanda);
     Console.WriteLine($"A banda foi {nomeDaBanda} registrada com sucesso!");
     Thread.Sleep(2000);
     Console.Clear();
