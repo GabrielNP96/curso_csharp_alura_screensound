@@ -64,11 +64,17 @@ void MostrarBandasRegistradas()
     Console.WriteLine("Exibindo bandas registradas.");
     Console.WriteLine("**********************\n");
 
-    for (int i = 0; i < listaDasBandas.Count; i++)
-    {
-        Console.WriteLine($"Banda : {listaDasBandas[i]}");
+    //for (int i = 0; i < listaDasBandas.Count; i++)
+    //{
+      //  Console.WriteLine($"Banda : {listaDasBandas[i]}");
         
-    }
+    //}
+
+     foreach (string banda in listaDasBandas)
+     {
+        Console.WriteLine($"Banda : {banda}");
+     }
+
      Console.WriteLine("\nDigite qualquer tecla para sair.");
      Console.ReadKey();
      Console.Clear();
