@@ -34,7 +34,7 @@ void ExibirOpcoesDoMenu()
         break;
         case 2 : MostrarBandasRegistradas();
         break;
-        case 3 : Console.WriteLine("Você escolheu a opção número 3");
+        case 3 : AvaliarUmaBanda();
         break;
         case 4 : Console.WriteLine("Você escolheu a opção número 4");
         break;
@@ -90,6 +90,28 @@ void ExibirOTituloDaopcao(string titulo) {
    Console.WriteLine(asteriscos);
    Console.WriteLine(titulo);
    Console.WriteLine(asteriscos + "\n");
+}
+
+void AvaliarUmaBanda()
+{
+    //digie qual banda desja avaliar
+    //verificar se a banda exise no dicionario >> atribuir uma nota
+    //Se não, voltar para o menu principal
+    Console.Clear();
+    ExibirOTituloDaopcao("Avaliar Banda");
+    Console.Write("Digite o nome da banda que deseja avaliar: ");
+    string nomeDaBanda = Console.ReadLine();
+    if (bandasRegistradas.ContainsKey(nomeDaBanda))
+    {
+
+    } else
+    {
+        Console.WriteLine($"\nA {nomeDaBanda} não foi encontrada");
+        Console.WriteLine("Digite qualquer tecla para voltar ao menu principal");
+        Console.ReadKey();
+        Console.Clear();
+        ExibirOpcoesDoMenu()
+    }
 }
 
 ExbirLogo();
