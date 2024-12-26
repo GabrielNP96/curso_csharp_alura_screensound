@@ -1,6 +1,10 @@
 ﻿//Screen Sound
 
-List<string> listaDasBandas = new List<string>{ "U2", "Iron Mainden", "Gojira"};
+//List<string> listaDasBandas = new List<string>{ "U2", "Iron Mainden", "Gojira"};
+
+Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
+bandasRegistradas.Add("Linkin Park", new List<int> {10, 8, 9});
+bandasRegistradas.Add("The Beatles", new List<int>());
 
 void ExbirLogo()
 {
@@ -51,7 +55,7 @@ void RegistarBanda()
     ExibirOTituloDaopcao("Registro de Bandas");
     Console.WriteLine("Digite o nome da banda: ");
     string nomeDaBanda = Console.ReadLine()!;
-    listaDasBandas.Add(nomeDaBanda);
+    bandasRegistradas.Add(nomeDaBanda, new List<int>());
     Console.WriteLine($"A banda foi {nomeDaBanda} registrada com sucesso!");
     Thread.Sleep(2000);
     Console.Clear();
@@ -69,7 +73,7 @@ void MostrarBandasRegistradas()
         
     //}
 
-     foreach (string banda in listaDasBandas)
+     foreach (string banda in bandasRegistradas.Keys)
      {
         Console.WriteLine($"Banda : {banda}");
      }
