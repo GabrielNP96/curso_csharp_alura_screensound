@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("curso_screenSound_csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e122f49b1fa6dec976d3b97d14ff9ce18093aa76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bcbae47cf4023e2f353c5a5e31160f673c65f17")]
 [assembly: System.Reflection.AssemblyProductAttribute("curso_screenSound_csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("curso_screenSound_csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

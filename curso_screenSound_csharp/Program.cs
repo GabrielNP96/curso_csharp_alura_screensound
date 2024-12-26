@@ -1,6 +1,6 @@
 ﻿//Screen Sound
 
-List<string> listaDasBandas = new List<string>();
+List<string> listaDasBandas = new List<string>{ "U2", "Iron Mainden", "Gojira"};
 
 void ExbirLogo()
 {
@@ -28,7 +28,7 @@ void ExibirOpcoesDoMenu()
     {
         case 1 : RegistarBanda();
         break;
-        case 2 : Console.WriteLine("Você escolheu a opção número 2");
+        case 2 : MostrarBandasRegistradas();
         break;
         case 3 : Console.WriteLine("Você escolheu a opção número 3");
         break;
@@ -55,6 +55,24 @@ void RegistarBanda()
     Thread.Sleep(2000);
     Console.Clear();
     ExibirOpcoesDoMenu();
+}
+
+void MostrarBandasRegistradas()
+{
+    Console.Clear();
+    Console.WriteLine("**********************");
+    Console.WriteLine("Exibindo bandas registradas.");
+    Console.WriteLine("**********************\n");
+
+    for (int i = 0; i < listaDasBandas.Count; i++)
+    {
+        Console.WriteLine($"Banda : {listaDasBandas[i]}");
+        
+    }
+     Console.WriteLine("\nDigite qualquer tecla para sair.");
+     Console.ReadKey();
+     Console.Clear();
+     ExibirOpcoesDoMenu();
 }
 
 ExbirLogo();
